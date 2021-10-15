@@ -1,0 +1,88 @@
+body {
+  background: url("img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 15%;
+}
+
+.container_logo{
+  padding-top: 15px;
+}
+
+.container{
+  height: 80vh;
+  position: relative;
+  background-color:rgba(0,0,0,.5);
+  margin: 30px 40px 0 40px;
+  border-radius: 10px;
+
+}
+
+.titolo{
+  text-align: center;
+  color:#66ff00;
+  font-size: 25px;
+  margin: 0;
+}
+
+.container_actions{
+  text-align: center;
+  margin-top:5px;
+  background-color: #66ff00;
+  padding:10px;
+  margin-left:auto;
+  margin-right: auto;
+  width: 70%
+}
+
+.component {
+  width: 500px;
+  margin-right: auto;
+  margin-left: 145px;
+}
+
+.component_top{
+  color:white;
+  margin-top:5px;
+  padding:13px;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.component_center {
+  color:white;
+}
+
+.component_center p {
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.component_bottom{
+  color:white;
+}
+
+.stato_carica{
+  padding:10px;
+  border-radius: 10px;
+}
+
+.first {
+  width: 50%;
+  background-color: orange;
+}
+
+.second {
+  width: 80%;
+  background-color: green;
+}
+
+.third{
+  width: 15%;
+  background-color: red;
+}
